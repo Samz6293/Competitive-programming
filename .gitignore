@@ -1,0 +1,11 @@
+# Ignore everything by default
+*
+
+# Do not ignore directories
+!*/
+
+# Explicitly whitelist the gitignore file itself
+!.gitignore
+
+# Whitelist all .cpp files
+!*.cpp
